@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">
   </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #222;">
       <div class="container">
 
         <a class="navbar-brand" href="#">Brand</a>
@@ -45,13 +45,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample05">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Q&A</a>
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./question.html">Q&A</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#">Item</a>
@@ -66,11 +66,18 @@
       </div>
     </nav>
     <div class="container">
+
+<nav class="nav nav-pills nav-fill">
+  <a class="nav-item nav-link active" href="#">Active</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+</nav>
+
     <div class="input-group mb-3">
   <div class="input-group-prepend">
     <span class="input-group-text">질문</span>
   </div>
-  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+  <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
 </div>
       <div id="editor">
         <div id='edit' style="margin-top: 30px;">
@@ -78,7 +85,7 @@
       </div>
     </div>
 
-  <footer class="footer">
+  <footer class="footer" style="background-color: #222">
       <div class="container">
         <span class="text-muted">footer</span>
       </div>
