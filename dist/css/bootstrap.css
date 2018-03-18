@@ -2779,8 +2779,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: #222;
+  border-color: #222;
 }
 
 .btn-dark:hover {
@@ -3608,7 +3608,7 @@ tbody.collapse.show {
   color: #495057;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #222;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -3912,6 +3912,7 @@ tbody.collapse.show {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -3944,7 +3945,7 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #222;
 }
 
 .nav-fill .nav-item {
